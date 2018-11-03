@@ -1,0 +1,31 @@
+{
+  "AWSTemplateFormatVersion" : "2010-09-09",
+   "Resources" : {
+     "WebInstance" : {
+      "Type" : "AWS::EC2::Instance",
+       "Properties" : {
+         "AvailabilityZone" : "StriStrngng",
+         "BlockDeviceMappings" : [ "apping" ],
+         "DisableApiTermination" : "True",
+         "IamInstanceProfile" : "String",
+         "ImageId" : "String",
+         "InstanceInitiatedShutdownBehavior" : "stop or terminate",
+         "InstanceType" : "t2.micro",
+         "KeyName" : "key-name",
+         "LaunchTemplate" : "option",
+         "NetworkInterfaces" : [ "Interface" ],
+         "PrivateIpAddress" : "String",
+         "SecurityGroupIds" : [ "String" ],
+         "SecurityGroups" : [ "String" ],
+         "SourceDestCheck" : "false",
+         "SsmAssociations" : [ "SSMAssociation"],
+         "SubnetId" : "String",
+         "Tags" : [ "Resource" ],
+         "Tenancy" : String,
+         "UserData" : String,
+         "Volumes" : [ EC2 MountPoint, ... ],
+         "AdditionalInfo" : String
+       }
+     }
+   }
+}
